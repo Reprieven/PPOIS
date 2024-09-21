@@ -1,0 +1,4 @@
+C:\PPOIS\SpotsGame\x64\Debug\SpotsGame.vcxproj.CopyComplete
+C:\PPOIS\SpotsGame\x64\Debug\SpotsGame.exe
+C:\PPOIS\SpotsGame\x64\Debug\gtest.pdb
+C:\PPOIS\SpotsGame\x64\Debug\gtest_main.pdb
