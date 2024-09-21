@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  spots.cpp
+  test.cpp
+C:\BSUIR\PPOIS\SpotsGame\spots.cpp(26,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "/spots.cpp")
+  
+  Создание кода...
+C:\BSUIR\PPOIS\SpotsGame\spots.cpp(139): warning C4715: spots::is_correct: значение возвращается не при всех путях выполнения
+  SpotsGame.vcxproj -> C:\BSUIR\PPOIS\SpotsGame\x64\Debug\SpotsGame.exe
