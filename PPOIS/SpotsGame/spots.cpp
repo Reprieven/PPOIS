@@ -197,6 +197,13 @@ bool spots::operator==(const spots& other) const
 
 bool spots::operator!=(const spots& other) const
 {
-	return!(*this == other);
+	if (*this == other) 
+	{
+		return false;
+	}
+	else 
+	{
+		return true;
+	}
 }
 
