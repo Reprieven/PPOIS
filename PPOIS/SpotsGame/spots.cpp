@@ -118,7 +118,7 @@ void spots::move(int value, std::string direction)
 	}
 }
 
-bool spots::is_correct(int** plate)
+bool spots::is_correct()
 {
 	int check_value = 1;
 	for (int i = 0; i < size; i++)
@@ -207,3 +207,62 @@ bool spots::operator!=(const spots& other) const
 	}
 }
 
+void spots :: show()
+{
+	std::cout << *this;
+}
+
+void spots::menu() 
+{
+	int choice = -1;
+	int value = -1;
+	int row = -1;
+	int column = -1;
+	std::string direction;
+	std::cout << "1)Вывести игровое поле в консоль\n2)Передвинуть элементы\n3)Получить значение элемента по его индексу\n4)Проверить на правильность\n";
+	std::cin >> choice;
+	switch (choice) 
+	{
+	case 1:
+		this->show();
+		break;
+	case 2:
+		std::cout << "Введите элемент для перемещения\n";
+		std::cin >> value;
+		std::cout << "Введите направление для перемещения(up,down,right,left)\n";
+		std::cin.ignore(1000, '\n');
+		getline(std::cin, direction);
+		this->move(value, direction);
+		break;
+	case 3:
+		std::cout << "Введите строку, в которой находится элемент\n";
+		std::cin >> row;
+		std::cout << "Введите столбец, в которой находится элемент\n";
+		std::cin >> column;
+		this->get_element(row, column);
+		break;
+	case 4:
+		if (this->is_correct()) 
+		{
+			std::cout << "Поля расположены правильно\n";
+		}
+		else
+		{
+			std::cout << "Поля расположены неправильно\n";
+		}
+		break;
+	default:
+		break;
+	}
+
+}
+
+/*int main()
+{
+	int i = 0;
+	spots game;
+	while (i < 10)
+	{
+		game.menu();
+	}
+}*/

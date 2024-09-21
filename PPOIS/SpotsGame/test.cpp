@@ -9,13 +9,7 @@ TEST(GameSpotsTest, CopyTest)
 TEST(GameSpotsTest, CorrectnessTest)
 {
 	spots game;
-	int** test_plate = game.get_plate();
-	EXPECT_FALSE(game.is_correct(test_plate));
-	for (int i = 0; i < game.get_size(); i++) 
-	{
-		delete[] test_plate[i];
-	}
-	delete[] test_plate;
+	EXPECT_FALSE(game.is_correct());
 }
 TEST(GameSpotsTest, CompareTestEqual)
 {

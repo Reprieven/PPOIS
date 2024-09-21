@@ -16,8 +16,10 @@ public:
 	spots();
 	spots(spots& other);
 	~spots();
+	void show();
+	void menu();
 	void move(int value, std::string  direction);
-	bool is_correct(int** plate);
+	bool is_correct();
 	int get_element(int row, int column);
 	int** get_plate();
 	int get_size();
