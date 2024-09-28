@@ -3,7 +3,7 @@
 #include<ctime>
 #include<string>
 #include<algorithm>
-#include<Windows.h>
+#include<iomanip>
 class Spots
 {
 private:

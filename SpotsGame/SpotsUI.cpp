@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "SpotsUI.h"
 
 void SpotsUI::show_plate(Spots& game)

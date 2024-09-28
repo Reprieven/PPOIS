@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "Spots.h"
 
 int Spots::random() 
@@ -149,7 +149,9 @@ bool Spots::is_correct()
 			check_value++;
 		}
 	}
+	return false;
 }
+
 
 int Spots::get_element(int row, int column)
 {
