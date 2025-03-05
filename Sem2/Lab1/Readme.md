@@ -87,5 +87,5 @@
 - `leave_space` - метод освобождения места пользователем.
 
 # Диаграммы 
-![classes.png](images/classes.png)
+![classes.png](images/classes.jpg)
 ![classes.png](images/states.png)
