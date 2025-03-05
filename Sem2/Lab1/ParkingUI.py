@@ -75,11 +75,11 @@ class ParkingUI():
 
     @staticmethod
     def security_not_ok():
-        OutputProvider.show_message("Машина на месте")
+        OutputProvider.show_message("Машину украли")
 
     @staticmethod
     def security_ok():
-        OutputProvider.show_message("Машину украли")
+        OutputProvider.show_message("Машина на месте")
     
     @staticmethod
     def balance(value: float):

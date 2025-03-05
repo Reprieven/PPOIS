@@ -14,7 +14,12 @@ class InputProvider:
 
     @staticmethod
     def get_float(prompt: str) -> float:
-        return float(input(prompt))
+        while True:
+            try:
+                res = float(input(prompt))
+                return res
+            except ValueError:
+                OutputProvider.show_message("Ошибка введите число!")
 
 
 class OutputProvider:
