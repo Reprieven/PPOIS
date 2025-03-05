@@ -88,4 +88,4 @@
 
 # Диаграммы 
 ![classes.png](images/classes.jpg)
-![classes.png](images/states.png)
+![classes.png](images/states.jpg)
