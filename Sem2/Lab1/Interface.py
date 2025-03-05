@@ -34,9 +34,6 @@ class ParkingFSM():
             self.users = state.get("users", [])
             self.current_user = state.get("current_user", None)
             self.parking = state.get("parking", None)
-            ParkingUI.load_ok("Состояние программы успешно загружено.")
-        else:
-            ParkingUI.load_no_file("Начинаем с чистого состояния программы.")
     
     def create_user(self):
         name, phone = ParkingUI.create_user_get_info()
