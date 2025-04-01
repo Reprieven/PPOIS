@@ -5,7 +5,7 @@ class Car():
         self.__licence_plate = licence_plate
     
     @property 
-    def model(self)->str:
+    def model(self)->str: 
         return self.__model
     
     @property

@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='utf-8'?>
+<athletes>
+  <athlete>
+    <id>None</id>
+    <name>Александр Петров</name>
+    <team_role>основной</team_role>
+    <position>Нападающий</position>
+    <titles>5</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Дмитрий Смирнов</name>
+    <team_role>запасной</team_role>
+    <position>Полузащитник</position>
+    <titles>2</titles>
+    <sport>футбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Иван Козлов</name>
+    <team_role>основной</team_role>
+    <position>Вратарь</position>
+    <titles>8</titles>
+    <sport>футбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Михаил Новиков</name>
+    <team_role>n/a</team_role>
+    <position>Центровой</position>
+    <titles>3</titles>
+    <sport>баскетбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Артем Морозов</name>
+    <team_role>основной</team_role>
+    <position>Разыгрывающий</position>
+    <titles>12</titles>
+    <sport>баскетбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Сергей Волков</name>
+    <team_role>запасной</team_role>
+    <position>Связующий</position>
+    <titles>1</titles>
+    <sport>волейбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Андрей Павлов</name>
+    <team_role>основной</team_role>
+    <position>Диагональный</position>
+    <titles>7</titles>
+    <sport>волейбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Алексей Федоров</name>
+    <team_role>основной</team_role>
+    <position>Защитник</position>
+    <titles>0</titles>
+    <sport>футбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Евгений Соколов</name>
+    <team_role>запасной</team_role>
+    <position>Нападающий</position>
+    <titles>4</titles>
+    <sport>футбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Константин Михайлов</name>
+    <team_role>n/a</team_role>
+    <position>Центровой</position>
+    <titles>6</titles>
+    <sport>баскетбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Никита Алексеев</name>
+    <team_role>основной</team_role>
+    <position>Либеро</position>
+    <titles>9</titles>
+    <sport>волейбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Павел Григорьев</name>
+    <team_role>запасной</team_role>
+    <position>Полузащитник</position>
+    <titles>2</titles>
+    <sport>футбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Роман Зайцев</name>
+    <team_role>основной</team_role>
+    <position>Вратарь</position>
+    <titles>5</titles>
+    <sport>футбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Владимир Макаров</name>
+    <team_role>n/a</team_role>
+    <position>Атакующий</position>
+    <titles>3</titles>
+    <sport>волейбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Глеб Орлов</name>
+    <team_role>основной</team_role>
+    <position>Разгоняющий</position>
+    <titles>11</titles>
+    <sport>баскетбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Тимур Власов</name>
+    <team_role>запасной</team_role>
+    <position>Защитник</position>
+    <titles>1</titles>
+    <sport>футбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Арсений Белов</name>
+    <team_role>основной</team_role>
+    <position>Нападающий</position>
+    <titles>7</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Даниил Комаров</name>
+    <team_role>n/a</team_role>
+    <position>Центрфорвард</position>
+    <titles>4</titles>
+    <sport>баскетбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Максим Лебедев</name>
+    <team_role>основной</team_role>
+    <position>Блокирующий</position>
+    <titles>10</titles>
+    <sport>волейбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Ярослав Семенов</name>
+    <team_role>запасной</team_role>
+    <position>Полузащитник</position>
+    <titles>0</titles>
+    <sport>футбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Егор Васильев</name>
+    <team_role>основной</team_role>
+    <position>Вратарь</position>
+    <titles>6</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Станислав Попов</name>
+    <team_role>n/a</team_role>
+    <position>Атакующий</position>
+    <titles>2</titles>
+    <sport>волейбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Виктор Жуков</name>
+    <team_role>основной</team_role>
+    <position>Разыгрывающий</position>
+    <titles>9</titles>
+    <sport>баскетбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Антон Борисов</name>
+    <team_role>запасной</team_role>
+    <position>Защитник</position>
+    <titles>3</titles>
+    <sport>футбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Кирилл Фролов</name>
+    <team_role>основной</team_role>
+    <position>Нападающий</position>
+    <titles>8</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Родион Егоров</name>
+    <team_role>n/a</team_role>
+    <position>Форвард</position>
+    <titles>5</titles>
+    <sport>баскетбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Георгий Давыдов</name>
+    <team_role>основной</team_role>
+    <position>Диагональный</position>
+    <titles>12</titles>
+    <sport>волейбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Вадим Медведев</name>
+    <team_role>запасной</team_role>
+    <position>Полузащитник</position>
+    <titles>1</titles>
+    <sport>футбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Олег Соловьев</name>
+    <team_role>основной</team_role>
+    <position>Вратарь</position>
+    <titles>7</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Федор Виноградов</name>
+    <team_role>n/a</team_role>
+    <position>Атакующий</position>
+    <titles>4</titles>
+    <sport>волейбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Семен Кузнецов</name>
+    <team_role>основной</team_role>
+    <position>Разгоняющий</position>
+    <titles>10</titles>
+    <sport>баскетбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Артур Новиков</name>
+    <team_role>запасной</team_role>
+    <position>Защитник</position>
+    <titles>2</titles>
+    <sport>футбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Борис Петухов</name>
+    <team_role>основной</team_role>
+    <position>Нападающий</position>
+    <titles>9</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Валерий Соболев</name>
+    <team_role>n/a</team_role>
+    <position>Центрфорвард</position>
+    <titles>6</titles>
+    <sport>баскетбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Геннадий Крылов</name>
+    <team_role>основной</team_role>
+    <position>Блокирующий</position>
+    <titles>11</titles>
+    <sport>волейбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Леонид Титов</name>
+    <team_role>запасной</team_role>
+    <position>Полузащитник</position>
+    <titles>0</titles>
+    <sport>футбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Мирон Федотов</name>
+    <team_role>основной</team_role>
+    <position>Вратарь</position>
+    <titles>8</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Николай Чернов</name>
+    <team_role>n/a</team_role>
+    <position>Атакующий</position>
+    <titles>3</titles>
+    <sport>волейбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Петр Шестаков</name>
+    <team_role>основной</team_role>
+    <position>Разыгрывающий</position>
+    <titles>12</titles>
+    <sport>баскетбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Святослав Громов</name>
+    <team_role>запасной</team_role>
+    <position>Защитник</position>
+    <titles>1</titles>
+    <sport>футбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Тарас Беляев</name>
+    <team_role>основной</team_role>
+    <position>Нападающий</position>
+    <titles>7</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Юрий Гаврилов</name>
+    <team_role>n/a</team_role>
+    <position>Форвард</position>
+    <titles>5</titles>
+    <sport>баскетбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Ян Кузьмин</name>
+    <team_role>основной</team_role>
+    <position>Диагональный</position>
+    <titles>10</titles>
+    <sport>волейбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Аркадий Савельев</name>
+    <team_role>запасной</team_role>
+    <position>Полузащитник</position>
+    <titles>2</titles>
+    <sport>футбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Богдан Михеев</name>
+    <team_role>основной</team_role>
+    <position>Вратарь</position>
+    <titles>9</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Виталий Носков</name>
+    <team_role>n/a</team_role>
+    <position>Атакующий</position>
+    <titles>4</titles>
+    <sport>волейбол</sport>
+    <category>2-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Григорий Пахомов</name>
+    <team_role>основной</team_role>
+    <position>Разгоняющий</position>
+    <titles>11</titles>
+    <sport>баскетбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Денис Широков</name>
+    <team_role>запасной</team_role>
+    <position>Защитник</position>
+    <titles>0</titles>
+    <sport>футбол</sport>
+    <category>1-й юношеский</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Ефим Лазарев</name>
+    <team_role>основной</team_role>
+    <position>Нападающий</position>
+    <titles>8</titles>
+    <sport>футбол</sport>
+    <category>КМС</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Захар Рябов</name>
+    <team_role>n/a</team_role>
+    <position>Центрфорвард</position>
+    <titles>6</titles>
+    <sport>баскетбол</sport>
+    <category>3-й разряд</category>
+  </athlete>
+  <athlete>
+    <id>None</id>
+    <name>Игорь Суханов</name>
+    <team_role>основной</team_role>
+    <position>Блокирующий</position>
+    <titles>13</titles>
+    <sport>волейбол</sport>
+    <category>Мастер спорта</category>
+  </athlete>
+</athletes>
