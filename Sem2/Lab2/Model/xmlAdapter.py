@@ -6,6 +6,10 @@ from Model.database import Athlete
 class XMLAdapter:
     def __init__(self, file_name: str = "Model/sports.xml"):
         self.xml_file = Path(file_name)
+
+    def set_file(self, file_path: str):
+        self.xml_file = Path(file_path)
+        self.is_file_exist()
     
     def is_file_exist(self):
         if not self.xml_file.exists():

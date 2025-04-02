@@ -11,6 +11,10 @@ class Crud:
        Crud.data_source = source
 
     @staticmethod
+    def change_xml_file(file_path: str):
+        Crud.xml_adapter = XMLAdapter(file_path) 
+
+    @staticmethod
     def add_data(name: str, team_role: str, position: str, titles: int, sport: str, category: str):
         new_athlete = Athlete(name=name, team_role=team_role, position=position, titles=titles,sport = sport, category=category)
         if Crud.data_source == "db":

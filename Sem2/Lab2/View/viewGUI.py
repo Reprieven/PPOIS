@@ -4,6 +4,7 @@ from Controller.controller import *
 from View.add import AddWindow
 from View.delete import DeleteWindow
 from View.search import SearchWindow
+from tkinter import filedialog
 
 class GUI: 
     def __init__(self, root):
@@ -185,10 +186,24 @@ class GUI:
     def open_change_data_source_window(self):
         window = tk.Toplevel(self.root)
         window.title("Изменение источника данных")
-        window.geometry("400x150")
-        tk.Button(window, text="XML", command=self.change_to_XML).pack(anchor="center", pady=10)
-        tk.Button(window, text="База данных", command=self.change_to_DB).pack(anchor="center", pady=10)
-        tk.Button(window, text="Закрыть", command=window.destroy).pack(anchor="s", pady=5)
+        window.geometry("400x200") 
+        
+        tk.Label(window, text="Выберите источник данных:").pack(pady=5)
+        
+        tk.Button(window, text="База данных", command=self.change_to_DB).pack(pady=5)
+        tk.Button(window, text="XML", command=self.change_to_XML).pack(pady=5)
+    
+        tk.Button(window,text="XML (выбрать файл...)",command=self.open_xml_file_dialog).pack(pady=5)
+        
+        tk.Button(window, text="Закрыть", command=window.destroy).pack(pady=5)
+    
+    def open_xml_file_dialog(self):
+        file_path = filedialog.askopenfilename(
+            title="Выберите XML-файл",
+            filetypes=[("XML files", "*.xml")],
+            defaultextension=".xml"
+        )
+        self.controller.change_xml_file(file_path)
         
 
     def open_add_window(self):

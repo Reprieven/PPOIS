@@ -1,5 +1,5 @@
 from Model.crud import Crud
-
+from Model.xmlAdapter import XMLAdapter
 
 class Controller:
     def __init__(self, view):
@@ -16,6 +16,12 @@ class Controller:
     def change_data_source(self, source: str):
         Crud.set_data_source(source)
         self.load_data()
+    
+    def change_xml_file(self, file_path: str):
+        if file_path:
+            Crud.change_xml_file(file_path)
+            Crud.set_data_source("xml")      
+            self.load_data()
 
     def update_view(self):
         total_pages = self.calculate_total_pages()
